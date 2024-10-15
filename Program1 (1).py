@@ -1,8 +1,8 @@
-# Your Name Here
+# Cooper Lilly
 # UWYO COSC 1010
-# Submission Date
+# Submission Date 10/15/24
 # HW 01
-# Lab Section: 
+# Lab Section: 13
 # Sources, people worked with, help given to: 
 # your
 # comments
@@ -31,6 +31,22 @@
 
 #Solution
 
+students = [
+    {"name": "Alice", "scores": {"Math": 85, "Science": 90, "English": 78}},
+    {"name": "Bob", "scores": {"Math": 70, "Science": 88, "English": 82}},
+    {"name": "Charlie", "scores": {"Math": 92, "Science": 81, "English": 89}},
+    {"name": "David", "scores": {"Math": 60, "Science": 75, "English": 80}}
+    ]
 
 
+average_scores = {}
 
+for student in students:
+    name = student ["name"]
+    scores = student ["scores"]
+    average_score = sum(scores.values()) / len(scores)
+    average_scores[name] = average_score
+
+for name, average_score in average_scores.items():
+    if average_score > 80:
+        print(name)
