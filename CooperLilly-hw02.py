@@ -1,12 +1,14 @@
-# Your Name Here
+# Cooper Lilly
 # UWYO COSC 1010
-# Submission Date
+# Submission Date 10/29/24
 # HW 02
-# Lab Section: 
+# Lab Section: 13
 # Sources, people worked with, help given to: 
 # your
 # comments
 # here
+
+
 morse_code_dict = {
     'A': '.-','N': '-.', 'B': '-...', 'O': '---', 'C': '-.-.', 'P': '.--.', 'D': '-..',
     'Q': '--.-', 'E': '.', 'R': '.-.', 'F': '..-.', 'S': '...', 'G': '--.', 'T': '-', 
